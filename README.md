@@ -25,4 +25,12 @@ To use the PyTorch LoRA weights with the SDXL 1.0 model, unzip the `./amg_gt_oue
             <img src="./image_samples/image_004.png" alt="DreamBooth" width="512"/>
         </td>
     </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_005.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_006.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
 </table>
