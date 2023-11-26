@@ -22,7 +22,7 @@ refiner_prompt = """sharp, crisp, in-focus, uncropped, high-quality"""
 refiner_negative_prompt = """photographic, photo, photorealistic, low quality, low-resolution, out of focus, blurry, grainy, artifacts, defects, jpeg artifacts, noise"""
 ```
 
-<table style="border=0;">
+<table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
             <img src="./image_samples/image_100.png" alt="DreamBooth" width="512"/>
@@ -71,7 +71,7 @@ refiner_prompt = """sharp, crisp, in-focus, uncropped, high-quality"""
 refiner_negative_prompt = """photographic, photo, photorealistic, low quality, low-resolution, out of focus, blurry, grainy, artifacts, defects, jpeg artifacts, noise"""
 ```
 
-<table style="border=0;">
+<table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
             <img src="./image_samples/image_001.png" alt="DreamBooth" width="512"/>
@@ -120,7 +120,7 @@ refiner_prompt = """ultra-high-definition, photorealistic, 8k uhd, high-quality,
 refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, grainy, artifacts, defects, jpeg artifacts, noise"""
 ```
 
-<table style="border=0;">
+<table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
             <img src="./image_samples/image_200.png" alt="DreamBooth" width="512"/>
