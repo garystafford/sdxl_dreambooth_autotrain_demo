@@ -123,34 +123,26 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
 <table style="border=0;">
     <tr>
         <td>
-            <img src="./image_samples/image_001.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_200.png" alt="DreamBooth" width="512"/>
         </td>
         <td>
-            <img src="./image_samples/image_002.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_003.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_004.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_202.png" alt="DreamBooth" width="512"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_005.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_205.png" alt="DreamBooth" width="512"/>
         </td>
         <td>
-            <img src="./image_samples/image_006.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_206.png" alt="DreamBooth" width="512"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_007.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_207.png" alt="DreamBooth" width="512"/>
         </td>
         <td>
-            <img src="./image_samples/image_008.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_209.png" alt="DreamBooth" width="512"/>
         </td>
     </tr>
 </table>
