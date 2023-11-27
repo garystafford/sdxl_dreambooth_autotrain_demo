@@ -8,9 +8,9 @@ To use the PyTorch LoRA weights with the SDXL 1.0 model, unzip the `mb_amg_gt_ou
 
 ## Sample Concept Images
 
-### Test of Pre-trained Model
+### Test of the Fine-tuned Model to Generate a `oue car` Image
 
-The rough product sketches below were generated using the following prompts:
+The photorealistic car images below were generated using the following prompts:
 
 ```python
 subject_prompt = subject_prompt = """oue, photo of oue car, sporty, fast, sleek, sexy, aggressive, high performance, daytime, futuristic cityscape"""
@@ -25,34 +25,34 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
-            <img src="./image_samples/image_100.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_400.png" alt="DreamBooth" width="512"/>
         </td>
         <td>
-            <img src="./image_samples/image_108.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_110.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_111.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_401.png" alt="DreamBooth" width="512"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_112.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_406.png" alt="DreamBooth" width="512"/>
         </td>
         <td>
-            <img src="./image_samples/image_113.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_407.png" alt="DreamBooth" width="512"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_115.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_409.png" alt="DreamBooth" width="512"/>
         </td>
         <td>
-            <img src="./image_samples/image_119.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_410.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_413.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_418.png" alt="DreamBooth" width="512"/>
         </td>
     </tr>
 </table>
