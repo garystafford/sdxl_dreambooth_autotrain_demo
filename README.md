@@ -155,8 +155,17 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
-Additional variations of color marker renderings generated with the latest LoRA weights:
+Additional variations of color marker renderings generated with the latest LoRA weights and these prompts:
 
+```python
+subject_prompt = """oue, marker rendering of oue electric scooter, concept art, futuristic cityscape, solid color background, bright vibrant colors, marker, sketch, illustration, illustrative, marker drawing, expressive strokes, graphic"""
+
+subject_negative_prompt = """person, people, human, rider, floating objects, text, words, writing, letters, phrases, trademark, watermark, icon, logo, banner, signature, username, monochrome, cropped, cut-off, patterned background"""
+
+refiner_prompt = """sharp, crisp, in-focus, uncropped, high-quality"""
+
+refiner_negative_prompt = """photographic, photo, photorealistic, low quality, low-resolution, out of focus, blurry, grainy, artifacts, defects, jpeg artifacts, noise"""
+```
 
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
