@@ -57,7 +57,7 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
     </tr>
 </table>
 
-### Rough Product Sketches of Scooters
+### Rough Product Sketches of `oue electric scooter`
 
 The rough product sketches below were generated using the following prompts:
 
@@ -106,7 +106,7 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
-### Color Marker Renderings of Scooters
+### Color Marker Renderings of `oue electric scooter`
 
 The color marker renderings below were generated using the following prompts:
 
@@ -155,7 +155,53 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
-### Photorealistic Images of Scooters
+Additional variations of color marker renderings generated with the latest LoRA weights:
+
+
+<table border="0" cellspacing="10" cellpadding="10">
+    <tr>
+        <td>
+            <img src="./image_samples/image_500.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_501.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_502.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_503.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_504.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_506.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_507.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_508.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_509.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_510.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+</table>
+
+### Photorealistic Images of `oue electric scooter`
 
 The photorealistic images below were generated using the following prompts:
 
