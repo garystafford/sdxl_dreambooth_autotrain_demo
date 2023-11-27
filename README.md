@@ -4,9 +4,58 @@ Source code files for the blog post: [Fine-tuning Stable Diffusion XL on AWS for
 
 ## LoRA Weights
 
-To use the PyTorch LoRA weights with the SDXL 1.0 model, unzip the `./amg_gt_oue_dreambooth/pytorch_lora_weights.safetensors.zip` file. The resulting `pytorch_lora_weights.safetensors` file should be placed in the `sdxl_dreambooth_autotrain_demo/amg_gt_oue_dreambooth` directory.
+To use the PyTorch LoRA weights with the SDXL 1.0 model, unzip the `mb_amg_gt_oue_dreambooth.zip` file. The resulting `mb_amg_gt_oue_dreambooth` and inclosed `pytorch_lora_weights.safetensors` file can be used with the SDXL 1.0 base model.
 
 ## Sample Concept Images
+
+### Test of Pre-trained Model
+
+The rough product sketches below were generated using the following prompts:
+
+```python
+subject_prompt = subject_prompt = """oue, photo of oue car, sporty, fast, sleek, sexy, aggressive, high performance, daytime, futuristic cityscape"""
+
+subject_negative_prompt = """person, people, human, rider, floating objects, text, words, writing, letters, phrases, trademark, watermark, icon, logo, banner, signature, username, monochrome, cropped, cut-off"""
+
+refiner_prompt = """ultra-high-definition, photorealistic, 8k uhd, high-quality, ultra sharp detail"""
+
+refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, grainy, artifacts, defects, jpeg artifacts, noise"""
+```
+
+<table border="0" cellspacing="10" cellpadding="10">
+    <tr>
+        <td>
+            <img src="./image_samples/image_100.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_108.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_110.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_111.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_112.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_113.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_115.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_119.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+</table>
 
 ### Rough Product Sketches
 
