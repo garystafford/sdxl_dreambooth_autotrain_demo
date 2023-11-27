@@ -106,6 +106,61 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
+Additional variations of rough product sketches generated with the latest LoRA weights and these prompts:
+
+```python
+subject_prompt = """oue, marker rendering of oue electric scooter, concept art, futuristic cityscape, high contrast, black and white, black marker, marker drawing, sketch, monochromatic illustration, illustrative, graphic, muted, expressive strokes"""
+
+subject_negative_prompt = """person, people, human, rider, floating objects, colors, text, words, writing, letters, phrases, trademark, watermark, icon, logo, banner, signature, username, cropped, cut-off, patterned background"""
+
+refiner_prompt = """sharp, crisp, in-focus, uncropped, high-quality"""
+
+refiner_negative_prompt = """photographic, photo, photorealistic, low quality, low-resolution, out of focus, blurry, grainy, artifacts, defects, jpeg artifacts, noise"""
+```
+
+<table border="0" cellspacing="10" cellpadding="10">
+    <tr>
+        <td>
+            <img src="./image_samples/image_600.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_601.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_602.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_603.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_604.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_605.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_606.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_607.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_608.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_609.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+</table>
+
 ### Color Marker Renderings of `oue electric scooter`
 
 The color marker renderings below were generated using the following prompts:
