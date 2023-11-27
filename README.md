@@ -10,7 +10,7 @@ To use the PyTorch LoRA weights with the SDXL 1.0 model, unzip the `mb_amg_gt_ou
 
 ### Test of the Fine-tuned Model to Generate `oue car` Images
 
-The photorealistic images below were generated using the following prompts:
+The photorealistic images below were generated using the following prompts at 864 x 1536 pixels wide (LinkedIn size):
 
 ```python
 subject_prompt = subject_prompt = """oue, photo of oue car, sporty, fast, sleek, sexy, aggressive, high performance, daytime, futuristic cityscape"""
@@ -59,7 +59,7 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
 
 ### Rough Product Sketches of `oue electric scooter`
 
-The rough product sketches below were generated using the following prompts:
+The rough product sketches below were generated using the following prompts at 864 x 1536 pixels wide (LinkedIn size):
 
 ```python
 subject_prompt = """oue, marker rendering of oue electric scooter, concept art, futuristic cityscape, high contrast, black and white, black marker, marker drawing, sketch, monochromatic illustration, illustrative, graphic, muted, expressive strokes"""
@@ -106,7 +106,7 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
-Additional variations of rough product sketches generated with the latest LoRA weights and these prompts:
+Additional variations of rough product sketches generated with the latest LoRA weights and these prompts at 768 x 1024 pixels wide:
 
 ```python
 subject_prompt = """oue, marker rendering of oue electric scooter, concept art, futuristic cityscape, high contrast, black and white, black marker, marker drawing, sketch, monochromatic illustration, illustrative, graphic, muted, expressive strokes"""
@@ -210,7 +210,7 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
-Additional variations of color marker renderings generated with the latest LoRA weights and these prompts:
+Additional variations of color marker renderings generated with the latest LoRA weights and these prompts at 768 x 1024 pixels wide:
 
 ```python
 subject_prompt = """oue, marker rendering of oue electric scooter, concept art, futuristic cityscape, solid color background, bright vibrant colors, marker, sketch, illustration, illustrative, marker drawing, expressive strokes, graphic"""
@@ -267,7 +267,7 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
 
 ### Photorealistic Images of `oue electric scooter`
 
-The photorealistic images below were generated using the following prompts:
+The photorealistic images below were generated using the following prompts at 864 x 1536 pixels wide (LinkedIn size):
 
 ```python
 subject_prompt = """oue, photo of a oue electric scooter, sleek, smooth curves, colorful, daytime, urban, futuristic cityscape"""
@@ -302,6 +302,61 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
         </td>
         <td>
             <img src="./image_samples/image_209.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+</table>
+
+Additional photorealistic images generated with the latest LoRA weights and these prompts at 768 x 1024 pixels wide:
+
+```python
+subject_prompt = """oue, photo of a oue electric scooter, sleek, smooth curves, colorful, daytime, urban, futuristic cityscape"""
+
+subject_negative_prompt = """person, people, human, rider, floating objects, text, words, writing, letters, phrases, trademark, watermark, icon, logo, banner, signature, username, monochrome, cropped, cut-off, patterned background"""
+
+refiner_prompt = """ultra-high-definition, photorealistic, 8k uhd, high-quality, ultra sharp detail"""
+
+refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, grainy, artifacts, defects, jpeg artifacts, noise"""
+```
+
+<table border="0" cellspacing="10" cellpadding="10">
+    <tr>
+        <td>
+            <img src="./image_samples/image_700.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_701.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_702.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_703.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_704.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_705.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_706.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_707.png" alt="DreamBooth" width="512"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_708.png" alt="DreamBooth" width="512"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_709.png" alt="DreamBooth" width="512"/>
         </td>
     </tr>
 </table>
