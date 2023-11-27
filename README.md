@@ -8,9 +8,9 @@ To use the PyTorch LoRA weights with the SDXL 1.0 model, unzip the `mb_amg_gt_ou
 
 ## Sample Concept Images
 
-### Test of the Fine-tuned Model to Generate a `oue car` Image
+### Test of the Fine-tuned Model to Generate `oue car` Images
 
-The photorealistic car images below were generated using the following prompts:
+The photorealistic images below were generated using the following prompts:
 
 ```python
 subject_prompt = subject_prompt = """oue, photo of oue car, sporty, fast, sleek, sexy, aggressive, high performance, daytime, futuristic cityscape"""
@@ -57,7 +57,7 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
     </tr>
 </table>
 
-### Rough Product Sketches
+### Rough Product Sketches of Scooters
 
 The rough product sketches below were generated using the following prompts:
 
@@ -106,7 +106,7 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
-### Color Marker Renderings
+### Color Marker Renderings of Scooters
 
 The color marker renderings below were generated using the following prompts:
 
@@ -155,7 +155,7 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
-### Photorealistic Images
+### Photorealistic Images of Scooters
 
 The photorealistic images below were generated using the following prompts:
 
