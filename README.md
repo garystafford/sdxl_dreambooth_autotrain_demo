@@ -160,7 +160,7 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
     </tr>
 </table>
 
-Additional variations of color marker renderings generated with the latest LoRA weights and these prompts at 768 x 1024 pixels wide:
+Additional variations of color marker renderings generated with the latest LoRA weights and the following prompts at 768 x 1024 pixels wide:
 
 ```python
 subject_prompt = """oue, marker rendering of oue electric scooter, concept art, futuristic cityscape, solid color background, bright vibrant colors, marker, sketch, illustration, illustrative, marker drawing, expressive strokes, graphic"""
@@ -247,7 +247,7 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
     </tr>
 </table>
 
-Additional photorealistic images generated with the latest LoRA weights and these prompts at 768 x 1024 pixels wide:
+Additional photorealistic images generated with the latest LoRA weights and the following prompts at 768 x 1024 pixels wide:
 
 ```python
 subject_prompt = """oue, photo of a oue electric scooter, sleek, smooth curves, colorful, daytime, urban, futuristic cityscape"""
