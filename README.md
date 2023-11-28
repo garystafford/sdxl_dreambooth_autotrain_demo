@@ -27,34 +27,35 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
-            <img src="./image_samples/image_400.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_400.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_401.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_406.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_401.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_407.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_406.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_409.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_407.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_410.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_409.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_410.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_413.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_413.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_418.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_418.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_403.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
 </table>
@@ -76,34 +77,35 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
-            <img src="./image_samples/image_100.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_100.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_108.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_108.png" alt="DreamBooth" width="384"/>
+        </td>
+         <td>
+            <img src="./image_samples/image_110.png" alt="DreamBooth" width="384"/>
+        </td>
+   </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_111.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_112.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_113.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_110.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_115.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_111.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_112.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_116.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_113.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_115.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_119.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_119.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
 </table>
@@ -123,42 +125,35 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
-            <img src="./image_samples/image_600.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_600.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_601.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_602.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_601.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_603.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_602.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_604.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_603.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_605.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_606.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_604.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_607.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_605.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_608.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_606.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_609.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_608.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_609.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
 </table>
@@ -180,34 +175,34 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
-            <img src="./image_samples/image_001.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_001.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_002.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_003.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_004.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_002.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_005.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_003.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_006.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_004.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_007.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_005.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_008.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_006.png" alt="DreamBooth" width="384"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_007.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_008.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
 </table>
@@ -227,42 +222,42 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
-            <img src="./image_samples/image_500.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_500.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_501.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_502.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_503.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_501.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_504.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_502.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_506.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_507.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_508.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_503.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_509.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_504.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_510.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_506.png" alt="DreamBooth" width="384"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_507.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_508.png" alt="DreamBooth" width="384"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_509.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_510.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
 </table>
@@ -284,26 +279,26 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
-            <img src="./image_samples/image_200.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_200.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_202.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_205.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_206.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_202.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_207.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_205.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_209.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_206.png" alt="DreamBooth" width="384"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_207.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_209.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
 </table>
@@ -323,42 +318,42 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
 <table border="0" cellspacing="10" cellpadding="10">
     <tr>
         <td>
-            <img src="./image_samples/image_700.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_700.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_701.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_702.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_703.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_701.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_704.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_702.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_705.png" alt="DreamBooth" width="512"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_706.png" alt="DreamBooth" width="512"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_707.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_703.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="./image_samples/image_708.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_704.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_709.png" alt="DreamBooth" width="512"/>
+            <img src="./image_samples/image_705.png" alt="DreamBooth" width="384"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_706.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_707.png" alt="DreamBooth" width="384"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./image_samples/image_708.png" alt="DreamBooth" width="384"/>
+        </td>
+        <td>
+            <img src="./image_samples/image_709.png" alt="DreamBooth" width="384"/>
         </td>
     </tr>
 </table>
