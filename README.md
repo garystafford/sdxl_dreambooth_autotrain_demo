@@ -12,7 +12,7 @@ All of the images shown below are unretouched and displayed as they were generat
 
 ### Test of the Fine-tuned Model to Generate `oue car` Images
 
-The photorealistic images below were generated using the following prompts at 864 x 1536 pixels wide (LinkedIn size):
+The photorealistic images below were generated using the following prompts at 768 x 1024 pixels wide:
 
 ```python
 subject_prompt = subject_prompt = """oue, photo of oue car, sporty, fast, sleek, sexy, aggressive, high performance, daytime, futuristic cityscape"""
@@ -62,55 +62,7 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
 
 ### Rough Product Sketches of `oue electric scooter`
 
-The rough product sketches below were generated using the following prompts at 864 x 1536 pixels wide (LinkedIn size):
-
-```python
-subject_prompt = """oue, marker rendering of oue electric scooter, concept art, futuristic cityscape, high contrast, black and white, black marker, marker drawing, sketch, monochromatic illustration, illustrative, graphic, muted, expressive strokes"""
-
-subject_negative_prompt = """person, people, human, rider, floating objects, colors, text, words, writing, letters, phrases, trademark, watermark, icon, logo, banner, signature, username, cropped, cut-off, patterned background"""
-
-refiner_prompt = """sharp, crisp, in-focus, uncropped, high-quality"""
-
-refiner_negative_prompt = """photographic, photo, photorealistic, low quality, low-resolution, out of focus, blurry, grainy, artifacts, defects, jpeg artifacts, noise"""
-```
-
-<table border="0" cellspacing="10" cellpadding="10">
-    <tr>
-        <td>
-            <img src="./image_samples/image_100.png" alt="DreamBooth" width="384"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_108.png" alt="DreamBooth" width="384"/>
-        </td>
-         <td>
-            <img src="./image_samples/image_110.png" alt="DreamBooth" width="384"/>
-        </td>
-   </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_111.png" alt="DreamBooth" width="384"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_112.png" alt="DreamBooth" width="384"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_113.png" alt="DreamBooth" width="384"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="./image_samples/image_115.png" alt="DreamBooth" width="384"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_116.png" alt="DreamBooth" width="384"/>
-        </td>
-        <td>
-            <img src="./image_samples/image_119.png" alt="DreamBooth" width="384"/>
-        </td>
-    </tr>
-</table>
-
-Additional variations of rough product sketches generated with the latest LoRA weights and these prompts at 768 x 1024 pixels wide:
+The rough product sketches below were generated using the following prompts at 768 x 1024 pixels wide:
 
 ```python
 subject_prompt = """oue, marker rendering of oue electric scooter, concept art, futuristic cityscape, high contrast, black and white, black marker, marker drawing, sketch, monochromatic illustration, illustrative, graphic, muted, expressive strokes"""
@@ -180,16 +132,14 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
         <td>
             <img src="./image_samples/image_002.png" alt="DreamBooth" width="384"/>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="./image_samples/image_003.png" alt="DreamBooth" width="384"/>
         </td>
+    </tr>
+    <tr>
         <td>
             <img src="./image_samples/image_004.png" alt="DreamBooth" width="384"/>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="./image_samples/image_005.png" alt="DreamBooth" width="384"/>
         </td>
@@ -225,11 +175,6 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
             <img src="./image_samples/image_500.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
-            <img src="./image_samples/image_501.png" alt="DreamBooth" width="384"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
             <img src="./image_samples/image_502.png" alt="DreamBooth" width="384"/>
         </td>
         <td>
@@ -243,16 +188,14 @@ refiner_negative_prompt = """photographic, photo, photorealistic, low quality, l
         <td>
             <img src="./image_samples/image_506.png" alt="DreamBooth" width="384"/>
         </td>
-    </tr>
-    <tr>
-        <td>
+         <td>
             <img src="./image_samples/image_507.png" alt="DreamBooth" width="384"/>
         </td>
+    </tr>
+    <tr>
         <td>
             <img src="./image_samples/image_508.png" alt="DreamBooth" width="384"/>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="./image_samples/image_509.png" alt="DreamBooth" width="384"/>
         </td>
@@ -284,16 +227,14 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
         <td>
             <img src="./image_samples/image_202.png" alt="DreamBooth" width="384"/>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="./image_samples/image_205.png" alt="DreamBooth" width="384"/>
         </td>
+    </tr>
+    <tr>
         <td>
             <img src="./image_samples/image_206.png" alt="DreamBooth" width="384"/>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="./image_samples/image_207.png" alt="DreamBooth" width="384"/>
         </td>
@@ -323,24 +264,14 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
         <td>
             <img src="./image_samples/image_701.png" alt="DreamBooth" width="384"/>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="./image_samples/image_702.png" alt="DreamBooth" width="384"/>
         </td>
-        <td>
-            <img src="./image_samples/image_703.png" alt="DreamBooth" width="384"/>
-        </td>
     </tr>
     <tr>
-        <td>
-            <img src="./image_samples/image_704.png" alt="DreamBooth" width="384"/>
-        </td>
         <td>
             <img src="./image_samples/image_705.png" alt="DreamBooth" width="384"/>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="./image_samples/image_706.png" alt="DreamBooth" width="384"/>
         </td>
@@ -349,6 +280,9 @@ refiner_negative_prompt = """low quality, low-resolution, out of focus, blurry, 
         </td>
     </tr>
     <tr>
+        <td>
+            <img src="./image_samples/image_703.png" alt="DreamBooth" width="384"/>
+        </td>
         <td>
             <img src="./image_samples/image_708.png" alt="DreamBooth" width="384"/>
         </td>
