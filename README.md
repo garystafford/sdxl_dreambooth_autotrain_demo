@@ -4,7 +4,7 @@ Source code files for the blog post: [Fine-tuning Stable Diffusion XL on AWS for
 
 ## LoRA Weights
 
-To use the PyTorch LoRA weights with the SDXL 1.0 model, unzip the `mb_amg_gt_oue_dreambooth.zip` file. The resulting `mb_amg_gt_oue_dreambooth` and inclosed `pytorch_lora_weights.safetensors` file can be used with the SDXL 1.0 base model. The model was fine-tuned with approximately 20 images, each scaled in the longest dimension to 1024 pixels.
+To use the PyTorch LoRA (Low-Rank Adaptation of Large Language Models) weights with the SDXL 1.0 model, unzip the `mb_amg_gt_oue_dreambooth.zip` file. The resulting `mb_amg_gt_oue_dreambooth` and inclosed `pytorch_lora_weights.safetensors` file can be used with the SDXL 1.0 base model. The model was fine-tuned with approximately 20 images, each scaled in the longest dimension to 1024 pixels.
 
 ## Sample Concept Images
 
